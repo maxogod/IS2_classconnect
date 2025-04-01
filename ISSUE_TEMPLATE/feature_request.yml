@@ -5,7 +5,7 @@ labels: ["enhancement", "discussion"]
 body:
   - type: markdown
     attributes:
-      value: "### Got an idea? Let's improve the project! 🚀"
+    value: "### Got an idea? Let's improve the project! 🚀"
   - type: textarea
     id: feature-description
     attributes:
