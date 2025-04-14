@@ -73,3 +73,11 @@ Se utiliza [codecov](https://about.codecov.io/) para la visualizacion en dashboa
 Todos lo servicios discutidos en el checkpoint 1 fueron desplegados en la nube utilizando Kubernetes. Los microservicios de users y courses cuentan con la implementacion basica planeada en el backlog comprometido.
 
 La aplicación desarrollada presenta por el momento un flujo de vistas que permiten la creación e ingreso de cuenta (aún sin manejo de sesión). Una vez el usuario ingresa, se puede crear cursos y visualizar una lista de los ya existentes. También se puede navegar al perfil personal del usuario.
+
+Vista previa del UI de la aplicación:
+
+<img alt="badge" width="650px" src="../img/screens1.png" /> 
+<img alt="badge" width="650px" src="../img/screens2.png" />
+<img alt="badge" width="650px" src="../img/screens3.png" />
+
+
