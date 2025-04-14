@@ -44,12 +44,10 @@ En PR a dev o main corren los tests para asegurar que no haya ningun cambio que 
 
 ### Tests & Coverage
 
-Se utiliza codecov para la visualizacion en dashboard y para las badges de coverage, en PR a dev o main corren los tests y se envian los resultados de covertura a dicho servicio externo.
+Se utiliza [codecov](https://about.codecov.io/) para la visualizacion en dashboard y para las badges de coverage. Al realizar un Pull Request contra las ramas dev (staging branch) y main (production) se ejecutan los tests respectivos del servicio, y se envian los resultados de covertura a codecov.
 
 ### E2E app-backend
 
-servicios en cloud, mas precisamente linode kubernetes engine.
+Todos lo servicios discutidos en el checkpoint 1 fueron desplegados en la nube utilizando Kubernetes. Los microservicios de users y courses cuentan con la implementacion basica planeada en el backlog comprometido.
 
-users basico con signup/login/getbyid.
-courses CRUD basico.
-mobile-app interfaz para login, si es exitoso se redirije a lista de courses personales, donde se puede crear nuevos, etc.
+La aplicación desarrollada presenta por el momento un flujo de vistas que permiten la creación e ingreso de cuenta (aún sin manejo de sesión). Una vez el usuario ingresa, se puede crear cursos y visualizar una lista de los ya existentes. También se puede navegar al perfil personal del usuario.
