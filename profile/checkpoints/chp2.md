@@ -38,9 +38,23 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 
 - Implementación de notificaciones Push/E-mail. ❌
 
+### Cloud
+
+El proveedor de cloud que se decidio utilizar es Linode, en especifico su motor de kubernetes [LKE](https://www.linode.com/products/kubernetes/). Esto permite que los servicios se encuentren en una red privada inaccesible desde el internet, y que solamente puedan ser accedidos a traves del api-gateway mencionado. Para el despliegue de servicios en *pods* de kubernetes, se tomo como herramienta el administrador de paquetes de *k8s* [helm](http://helm.sh), ya que abstrae la configuracion de los recursos por medio de la confeccion de archivos manifiestos en *yaml*.
+
 ### CI/CD
 
-En PR a dev o main corren los tests para asegurar que no haya ningun cambio que rompa las features existentes. En PUSH a main se ejecuta el pipeline de construccion de docker image, publicacion al registro de imagenes de docker de github GHDR, actualizacion de configuraciones de HELM y finalmente el despliegue de la nueva version del servicio en LKE (linode kubernetes engine).
+Se crearon pipelines para la construccion y despliegue de los servicios (los cuales se ejecutan automaticamente cuando se aceptan cambios a la rama principal), asi como tambien pipelines para asegurar la calidad de los mismos mediante checkeos de codigo y ejecucion de pruebas.
+
+**CI**
+
+- Se construye la nueva imagen de docker del servicio que esta siendo actualizado.
+- Se publica la misma en el registro de imagenes de docker de github *GHDR*.
+
+**CD**
+
+- Se configuran los cambios que se hayan hecho en los valores de *HELM*.
+- Se descarga la imagen de docker actualizada y se ejecuta en el motor de kubernetes utilizado (LKE).
 
 ### Tests & Coverage
 
