@@ -11,9 +11,32 @@ Para este checkpoint se tuvo como objetivo incorporar una base para cada uno de 
 
 ### Backlog comprometido
 
-- users signup, login, google oauth, profile get/update
-- courses CRUD
-- mobile app, blabla
+El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/ClassConnect-org/projects/1/views/3), este consiste en los siguientes items:
+
+**Users:**
+
+- Creación de base de datos (Supabase - Postgres). ✔️
+- Implementación de registro. ✔️
+- Implementación de ingreso a cuentra registrada. ✔️
+- Integración de autenticación de Google. ❌
+  
+**Courses:**
+
+- Creación de base de datos (Supabase - Postgres). ✔️
+- Implementación del CRUD. ✔️
+  
+**Mobile-app:**
+
+- Vistas de paginas principales.
+- Vistas de creacion e ingreso a cuenta por e-mail y por google auth. ✔️
+- Vista de perfil de cuenta. ✔️
+- Vista de creación y listado de courses. ✔️
+- Integración de servicio de users. ✔️
+- Integración de servicio de courses. ✔️
+
+**Notifications:**
+
+- Implementación de notificaciones Push/E-mail. ❌
 
 ### CI/CD
 
