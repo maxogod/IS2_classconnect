@@ -60,6 +60,14 @@ Se crearon pipelines para la construccion y despliegue de los servicios (los cua
 
 Se utiliza [codecov](https://about.codecov.io/) para la visualizacion en dashboard y para las badges de coverage. Al realizar un Pull Request contra las ramas dev (staging branch) y main (production) se ejecutan los tests respectivos del servicio, y se envian los resultados de covertura a codecov.
 
+**Ejemplo de badge**
+
+<img alt="badge" width="100px" src="../img/test_badge.png" />
+
+**Ejemplo de dashboard**
+
+![dashboard](../img/test_dash.jpg)
+
 ### E2E app-backend
 
 Todos lo servicios discutidos en el checkpoint 1 fueron desplegados en la nube utilizando Kubernetes. Los microservicios de users y courses cuentan con la implementacion basica planeada en el backlog comprometido.
