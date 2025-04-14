@@ -32,7 +32,7 @@ Algunos de estos servicios utilizaran el lenguaje de programacion [Go](https://g
 
 ### Diseño
 
-![design](../img/arquitectura_cc.png)
+![design](../img/arquitectura_1.png)
 
 ### Herramienta de Gestion
 
