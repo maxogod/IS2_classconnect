@@ -76,8 +76,8 @@ La aplicación desarrollada presenta por el momento un flujo de vistas que permi
 
 Vista previa del UI de la aplicación:
 
-<img alt="badge" width="650px" src="../img/screens1.png" /> 
-<img alt="badge" width="650px" src="../img/screens2.png" />
-<img alt="badge" width="650px" src="../img/screens3.png" />
-
-
+<div>
+  <img alt="badge" width="500px" src="../img/screens1.png" /> 
+  <img alt="badge" width="500px" src="../img/screens2.png" />
+  <img alt="badge" width="500px" src="../img/screens3.png" />
+<div/>
