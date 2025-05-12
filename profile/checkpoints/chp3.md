@@ -66,26 +66,26 @@ Entre los dashboards disponibles se encuentran los más relevantes:
 System metrics:
 
 
-![system metrics](../profile/img/system_metrics.png)
+![system metrics](../img/system_metrics.png)
 
 
 System networking: 
 
-![system networking:](../profile/img/system_networking.png)
+![system networking](../img/system_networking.png)
 
 
 Kubernetes pods overview:
 
 
-![kubernetes pods overview::](../profile/img/kube_pods.png)
+![kubernetes pods overview](../img/kube_pods.png)
 
+
+También se agrego un sistema de monitoreo con alarmas disparadoras donde al activarse al pasar un umbral seteado por ejemplo de uso de CPU en alguno de los nodos, se envía una notificación por email:
+
+![monitor](../img/monitor.png)
 
 ### Muestra de aplicación:
 
 Vista previa del UI de la aplicación:
 
-<div>
-  <img alt="badge" width="500px" src="../img/screens1.png" /> 
-  <img alt="badge" width="500px" src="../img/screens2.png" />
-  <img alt="badge" width="500px" src="../img/screens3.png" />
-<div/>
+
