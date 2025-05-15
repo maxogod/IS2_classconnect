@@ -23,6 +23,7 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 - View my profile  ✔️
 - View others profiles ✔️
 - Edit Profile ✔️
+- Picture Storage ✔️
 - Google Login ✔️
   
 **Courses:**
@@ -53,6 +54,12 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 - User Notifications Configuration ✔️
 - Log Notifications  ✔️
 - Send Push Notifications ❌
+
+**Administration:**
+
+- Rules (CRUD)  ✔️
+- Admin Creation & Login ✔️
+- Audit Log ❌
 
 ### Cloud
 
