@@ -13,30 +13,45 @@ Para este checkpoint se tuvo como objetivo incorporar una base para cada uno de 
 
 El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/ClassConnect-org/projects/1/views/3), este consiste en los siguientes items:
 
-**Users:**
+**Users**:
 
-- Creación de base de datos (Supabase - Postgres). ✔️
-- Implementación de registro. ✔️
-- Implementación de ingreso a cuentra registrada. ✔️
-- Integración de autenticación de Google. ❌
-  
-**Courses:**
+ - View my profile  ✔️
+ - View others profiles ✔️
+ - Edit Profile ✔️
+ - Google Login ✔️
 
-- Creación de base de datos (Supabase - Postgres). ✔️
-- Implementación del CRUD. ✔️
-  
-**Mobile-app:**
+**Courses**:
 
-- Vistas de paginas principales.
-- Vistas de creacion e ingreso a cuenta por e-mail y por google auth. ✔️
-- Vista de perfil de cuenta. ✔️
-- Vista de creación y listado de courses. ✔️
-- Integración de servicio de users. ✔️
-- Integración de servicio de courses. ✔️
+ - Get Detailed Courses Info ✔️
+ - Filter Courses ✔️
+ - Validate Data for Courses  ✔️
+ - Assignments and Evaluations CRUD ✔️
+ - Enroll Student in Course  ✔️
+ - Visualize Courses ✔️
+ - Configure Eligibility Criteria for Courses ❌
+ - Get Courses Containing Students ❌
 
-**Notifications:**
+**Mobile-app**:
 
-- Implementación de notificaciones Push/E-mail. ❌
+ - Create Design from tasks and exams ✔️
+ - Receive and Send Courses Information ✔️
+ - Add login session system and its persistance ✔️
+ - Make views only accesable by ownership on courses  ✔️
+ - Create edit profile view ✔️
+ - Add working profile view GET request to users service ✔️
+ - Make views only accesable by ownership on tasks ❌
+ - Design edit and delete course view ❌
+
+**Notifications**:
+
+ - Send Email Notifications for Events  ✔️
+ - User Notifications Configuration ✔️
+ - Log Notifications  ✔️
+ - Send Push Notifications ❌
+
+**DEVOPS**:
+
+ - Metrics with Datadog  ✔️ 
 
 ### Cloud
 
