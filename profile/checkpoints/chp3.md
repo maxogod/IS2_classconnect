@@ -20,11 +20,11 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 
 **Users:**
 
+- Google Login ✔️
 - View my profile  ✔️
 - View others profiles ✔️
 - Edit Profile ✔️
-- Picture Storage ✔️
-- Google Login ✔️
+- Profile Picture Cloud Storage ✔️
   
 **Courses:**
 
@@ -34,8 +34,8 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 - Assignments and Evaluations CRUD ✔️
 - Enroll Student in Course  ✔️
 - Visualize Courses ✔️
-- Configure Eligibility Criteria for Courses ❌
-- Get Courses Containing Students ❌
+- Configure Eligibility Criteria for Courses ✔️
+- Get Courses Containing Students ✔️
   
 **Mobile-app:**
 
@@ -46,7 +46,7 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 - Create edit profile view ✔️
 - Add working profile view GET request to users service ✔️
 - Make views only accesable by ownership on tasks ❌
-- Design edit and delete course view
+- Design edit and delete course view ✔️
 
 **Notifications:**
 
