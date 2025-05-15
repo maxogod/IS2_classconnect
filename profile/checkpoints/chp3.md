@@ -90,9 +90,3 @@ Kubernetes pods overview:
 También se agrego un sistema de monitoreo con alarmas disparadoras donde al activarse al pasar un umbral pre-definido por ejemplo cierto porcentaje de uso de CPU en alguno de los nodos, se envía una notificación por email a cada uno de los administradores (para esto se creo un google groups, al cual en futuros checkpoints se agregaran automaticamente los nuevos administradores creados):
 
 ![monitor](../img/monitor.png)
-
-### Muestra de aplicación:
-
-Vista previa del UI de la aplicación:
-
-
