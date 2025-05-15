@@ -2,16 +2,16 @@
 
 ## Checkpoint 3
 
-Para este checkpoint se ha colocado como objetivo una serie de elementos a desarrollar presentes en el backlog de esta organización, y además incorporar un sistema de analisis de métricas sobre los servicios.
+Para este checkpoint se ha colocado como objetivo una serie de elementos a desarrollar presentes en el backlog de la iteracion 2 dentro del [github projects](https://github.com/orgs/ClassConnect-org/projects/1/views/2) de la organización, y además incorporar un sistema de analisis de métricas sobre los servicios.
 
 ### Cambios respecto al anterior checkpoint
 
-1. Se cambió en  el servicio de notificaciones, el sistema de notificaciones smtp relay, a sistema de notificaciones utilizando Brevo.
+1. Se cambió en el servicio de notificaciones, de smtp con gmail, a la API provista por el sistema de notificaciones [Brevo](https://www.brevo.com/). Esta decision se tomo, dado que el servicio utilizado [*LKE*](https://techdocs.akamai.com/cloud-computing/docs/getting-started-with-lke-linode-kubernetes-engine) para kubernetes, filtra paquetes con protocolo SMTP, ya que como parte de su negocio, ofrecen un servicio pago al respecto.
 
 #### Sistema de Métricas
 
-Se añadió un sistema de monitoreo a los microservicios utilizando la plataforma [Datadog](https://www.datadoghq.com/), y se ha desplegado un agente de datadog para el clúster que se encuentra montado en la nube de kubernetes, y además un datadog node agent por cada nodo, desplegados como daemonset.
-De esta forma, obteniendo de esta forma las métricas de todos los servicios en cada nodo, como el funcionamiento y estado de la infraestructura y recursos presentes en el nodo.
+Se añadió un sistema de monitoreo a los microservicios utilizando la plataforma [Datadog](https://www.datadoghq.com/), y se ha desplegado un agente de datadog para el clúster de kubernetes que se encuentra montado en la nube, y además un datadog node agent por cada nodo desplegado, como un daemonset.
+De esta forma, se obtienen las métricas de todos los servicios en cada nodo, como el funcionamiento y estado de la infraestructura y recursos presentes en el nodo.
 Se añandió un nuevo repositorio de infraestructura como código, donde se ejecuta la acción correspondiente para cargar la integración de herramientas de monitoreo de datadog en nuestro clúster.
 
 ### Backlog comprometido
@@ -61,12 +61,12 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 - Admin Creation & Login ✔️
 - Audit Log ❌
 
-### Cloud
+### Media Cloud Storage
 
-Se utilizó como recurso de cloud storage a [Supabase Storage](https://supabase.com/docs/guides/storage), donde se almacenan hasta el momento las imagenes de perfil de los usuarios.
+Se utilizó como recurso de almacenamiento de archivos en la nube a [Supabase Storage](https://supabase.com/docs/guides/storage), donde se almacenan hasta el momento las imagenes de perfil de los usuarios.
 
 
-**Ejemplo de dashboards**
+**Ejemplo de dashboards de datadog**
 
 Entre los dashboards disponibles se encuentran los más relevantes:
 
@@ -87,7 +87,7 @@ Kubernetes pods overview:
 ![kubernetes pods overview](../img/kube_pods.png)
 
 
-También se agrego un sistema de monitoreo con alarmas disparadoras donde al activarse al pasar un umbral seteado por ejemplo de uso de CPU en alguno de los nodos, se envía una notificación por email:
+También se agrego un sistema de monitoreo con alarmas disparadoras donde al activarse al pasar un umbral pre-definido por ejemplo cierto porcentaje de uso de CPU en alguno de los nodos, se envía una notificación por email a cada uno de los administradores (para esto se creo un google groups, al cual en futuros checkpoints se agregaran automaticamente los nuevos administradores creados):
 
 ![monitor](../img/monitor.png)
 
