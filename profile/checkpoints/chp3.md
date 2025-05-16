@@ -61,6 +61,9 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 - Admin Creation & Login ✔️
 - Audit Log ❌
 
+**DEVOPS**:
+ - Metrics with Datadog  ✔️ 
+
 ### Media Cloud Storage
 
 Se utilizó como recurso de almacenamiento de archivos en la nube a [Supabase Storage](https://supabase.com/docs/guides/storage), donde se almacenan hasta el momento las imagenes de perfil de los usuarios.
