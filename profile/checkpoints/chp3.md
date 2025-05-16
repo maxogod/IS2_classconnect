@@ -73,7 +73,7 @@ Se añandió un nuevo repositorio de infraestructura como código, donde se ejec
 
 **Ejemplo de dashboards de datadog**
 
-Entre los dashboards disponibles se encuentran los más relevantes:
+A continuacion se muestran capturas de algunos de los dashboards mas relevantes disponibles en la plataforma:
 
 System metrics:
 
@@ -87,6 +87,8 @@ Kubernetes pods overview:
 
 ![kubernetes pods overview](../img/kube_pods.png)
 
-También se agrego un sistema de monitoreo con alarmas disparadoras donde al activarse al pasar un umbral pre-definido por ejemplo cierto porcentaje de uso de CPU en alguno de los nodos, se envía una notificación por email a cada uno de los administradores (para esto se creo un google groups, al cual en futuros checkpoints se agregaran automaticamente los nuevos administradores creados):
+**Alertas**
+
+También se agrego un sistema de monitoreo con alarmas disparadoras donde al activarse al pasar un umbral pre-definido, por ejemplo cierto porcentaje de uso de CPU en alguno de los nodos, se envía una notificación por email a cada uno de los administradores (para esto se creo un google groups, al cual en futuras iteraciones se agregaran automaticamente los nuevos administradores creados):
 
 ![monitor](../img/monitor.png)
