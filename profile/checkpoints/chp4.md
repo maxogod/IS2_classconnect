@@ -50,3 +50,5 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 ### Sistema de Métricas
 
 APM integration for all services
+
+![image](https://github.com/user-attachments/assets/f8161958-5f1b-4251-9a7a-0eb83f7eca3b)
