@@ -15,38 +15,50 @@ Para este checkpoint se tuvo como objetivo tener una version utilizable de la ap
 
 El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/ClassConnect-org/projects/1/views/2), este consiste en los siguientes items:
 
-**Users:**
+**Usuarios:**
+- Activación de Cuenta  ✔️
+- Recupero de Contraseña ❌
 
-- Bla ✔️
-- Bla ❌
+**Cursos:**
+- Creación de Módulos ✔️
+- Agregar Recursos a un Módulo✔️
+- Edición de Modulos ✔️
+- Manejo de Errores en la Creación de Modulos ✔️
+- Efectivizar el Criterio de Elegibilidad para Enrolamiento❌
 
-**Courses:**
-
-- Bla ✔️
-- Bla ❌
-  
 **Mobile-app:**
+- Diseño de la edicion y borrado de curso ✔️
+- Agregar sistema basico de notificación a todos los servicios  ✔️
+- Crear vista de lista de las tareas/examenes para estudiantes y profesores ✔️
+- Agregar vista para el recupero de contraseña ✔️
+- Agregar vista para la Activacion de Cuenta ✔️
+- Agregar sistema de notifiacion Push ✔️
+- Recibir y Enviar información del Foro  ✔️
+- Mejorar diseño de la vista del foro ✔️
+- Crear vista para la creacion y edicion de modulos para los profesores ❌
+- Agregar manejo de filtros para la vista de cursos ❌
 
-- Bla ✔️
-- Bla ❌
+**Foro:**
+- Creación de Preguntas ✔️
+- Permitir respuestas a preguntas existentes  ✔️
+- Edición y Eliminacion de preguntas y respuestas
+- Paginación a la vista del foro  ✔️
+- Votación y seleccion de pregunta correcta ✔️
+- Filtrado y Busqueda de Contenido ✔️
+- Notificaciones de Actividad ❌
 
-**Notifications:**
+**Notificaciones:**
+- Envio de Notificaciones Push ✔️
 
-- Bla ✔️
-- Bla ❌
+**Admin:**
+- Registro de auditoria ✔️ 
+- Manejo de Usuarios ❌
 
-**Administration:**
+**Chat de Asistencia IA:**
+- En progreso (chat funcionando pero con contexto pre-definido no dinamico) 🟡
 
-- Bla ✔️
-- Bla ❌
-
-**Forum**:
-- Bla ✔️
-- Bla ❌
-
-**AI**:
-- Bla ✔️
-- Bla ❌
+**Backoffice Front:**
+- Implementacion general ❌
 
 ### Features pendientes para finalizacion de MVP
 
