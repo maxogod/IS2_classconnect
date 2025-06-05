@@ -1,8 +1,6 @@
 [**Volver**](../README.md)
 
-# Actualmente en Desarrollo - *Deadline: 5 de Junio*
-
-## Checkpoint 3
+## Checkpoint 4
 
 Para este checkpoint se tuvo como objetivo tener una version utilizable de la aplicacion, teniendo en cuenta el nucleo de la misma, es decir la posibilidad de unirse a cursos, y que el profesor sea capaz de dar material a los alumnos en el formato de modulos organizables, asi como tambien, pedir tareas y examenes, para que los estudiantes completen, y luego este pueda corregir las entregas. Tambien se apunto a tener un espacio de comunicacion entre alumnos y profesores, con temas y la posibilidad de hacer preguntas y respuestas. Finalmente comenzar a investigar e implementar una prueba de concepto respecto a el microservicio de AI, con el objetivo de confeccionar un chat contextuado especificamente sobre la plataforma (uso, preguntas frecuentes, etc).
 
