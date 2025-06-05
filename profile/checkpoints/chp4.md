@@ -20,6 +20,8 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 - Recupero de Contraseña ❌
 
 **Cursos:**
+- Entregas de tareas ✔️
+- Entregas de examenes ✔️
 - Creación de Módulos ✔️
 - Agregar Recursos a un Módulo✔️
 - Edición de Modulos ✔️
