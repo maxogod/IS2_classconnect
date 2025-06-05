@@ -7,4 +7,4 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 - [Checkpoint 1](./checkpoints/chp1.md)
 - [Checkpoint 2](./checkpoints/chp2.md)
 - [Checkpoint 3](./checkpoints/chp3.md)
-- [Checkpoint 3](./checkpoints/chp4.md)
+- [Checkpoint 4](./checkpoints/chp4.md)
