@@ -15,51 +15,52 @@ El backlog comprometido se puede visualizar [aqui](https://github.com/orgs/Class
 
 **Users:**
 
-- Google Login ✔️
-- View my profile  ✔️
-- View others profiles ✔️
-- Edit Profile ✔️
-- Profile Picture Cloud Storage ✔️
-  
+- Inicio de sesión con Google ✔️  
+- Ver mi perfil ✔️  
+- Ver perfiles de otros ✔️  
+- Editar perfil ✔️  
+- Almacenamiento en la nube para foto de perfil ✔️  
+
 **Courses:**
 
-- Get Detailed Courses Info ✔️
-- Filter Courses ✔️
-- Validate Data for Courses  ✔️
-- Assignments and Evaluations CRUD ✔️
-- Enroll Student in Course  ✔️
-- Visualize Courses ✔️
-- Configure Eligibility Criteria for Courses ✔️
-- Get Courses Containing Students ✔️
-  
-**Mobile-app:**
+- Obtener información detallada de cursos ✔️  
+- Filtrar cursos ✔️  
+- Validar datos para cursos ✔️  
+- CRUD de tareas y evaluaciones ✔️  
+- Inscribir estudiantes en cursos ✔️  
+- Visualizar cursos ✔️  
+- Configurar criterios de elegibilidad para cursos ✔️  
+- Obtener cursos que contienen estudiantes ✔️  
 
-- Create Design from tasks and exams ✔️
-- Receive and Send Courses Information ✔️
-- Add login session system and its persistance ✔️
-- Make views only accesable by ownership on courses  ✔️
-- Create edit profile view ✔️
-- Add working profile view GET request to users service ✔️
-- Make views only accesable by ownership on tasks ❌
-- Design edit and delete course view ❌
+**Mobile:**
+
+- Crear diseño para tareas y exámenes ✔️  
+- Recibir y enviar información de cursos ✔️  
+- Añadir sistema de sesión de login y su persistencia ✔️  
+- Hacer vistas accesibles solo por propiedad en cursos ✔️  
+- Crear vista para editar perfil ✔️  
+- Añadir solicitud GET funcional de vista de perfil a servicio de usuarios ✔️  
+- Hacer vistas accesibles solo por propiedad en tareas ❌  
+- Diseñar vistas para editar y eliminar curso ❌  
 
 **Notifications:**
 
-- Creación de base de datos (MongoAtlas - MongoDB). ✔️
-- Send Email Notifications for Events  ✔️
-- User Notifications Configuration ✔️
-- Log Notifications  ✔️
-- Send Push Notifications ❌
+- Creación de base de datos (MongoAtlas - MongoDB) ✔️  
+- Enviar notificaciones por email para eventos ✔️  
+- Configuración de notificaciones de usuario ✔️  
+- Registrar notificaciones (logs) ✔️  
+- Enviar notificaciones push ❌  
 
 **Administration:**
 
-- Creación de base de datos (MongoAtlas - MongoDB). ✔️
-- Rules (CRUD)  ✔️
-- Admin Creation & Login ✔️
-- Audit Log ❌
+- Creación de base de datos (MongoAtlas - MongoDB) ✔️  
+- Reglas (CRUD) ✔️  
+- Creación e inicio de sesión de administradores ✔️  
+- Registro de auditoría ❌  
 
-**DEVOPS**:
- - Metrics with Datadog  ✔️ 
+**DEVOPS:**
+
+- Métricas con Datadog ✔️  
 
 ### Almacenamiento de archivos en la nube
 
