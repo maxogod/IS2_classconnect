@@ -8,6 +8,8 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 
 ## Documentación general
 
+Documentos orientados a dar una visión global del sistema, su estructura, uso y proceso de desarrollo.
+
 | Documento                       | Link |
 |----------------------------------|------|
 | Arquitectura & Infraestructura            | <p align="center">[[>]](./tech/architecture.md)</p> |
@@ -18,7 +20,11 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 
 ## Documentacion tecnica
 
+Referencias para el equipo de desarrollo sobre servicios, infraestructura y aplicaciones implementadas.
+
 ### Repositorios IaC
+
+Contiene la configuracion del kong-api-gateway y herramientas de monitoreo.
 
 | Servicio        | Docs                                               | Repo                                 |
 |-----------------|----------------------------------------------------|--------------------------------------|
@@ -26,6 +32,8 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 | Datadog         | <p align="center">[[>]](./tech/datadog.md)</p>     | <p align="center">[[>]](https://github.com/ClassConnect-org/datadog-metrics)</p> |
 
 ### Micro-servicios (Backend)
+
+Servicios independientes que componen la lógica del negocio.
 
 | Servicio        | Docs                                               | Repo                                 |
 |-----------------|----------------------------------------------------|--------------------------------------|
@@ -38,12 +46,16 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 
 ### Aplicaciones (Frontend)
 
+Interfaces de usuario de la plataforma.
+
 | Aplicación     | Docs                                               | Repo                                 |
 |----------------|----------------------------------------------------|--------------------------------------|
 | Backoffice     | <p align="center">[[>]](./tech/backoffice.md)</p>  | <p align="center">[[>]](https://github.com/ClassConnect-org/backoffice-app)</p> |
 | Mobile         | <p align="center">[[>]](./tech/mobile.md)</p>      | <p align="center">[[>]](https://github.com/ClassConnect-org/mobile-app)</p> |
 
 ## Bitacoras
+
+Historial de entregas y avances del proyecto a lo largo del cuatrimestre.
 
 ### Checkpoints
 
