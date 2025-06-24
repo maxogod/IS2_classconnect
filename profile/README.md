@@ -1,8 +1,10 @@
 # ClassConnect
 
-<img src="./img/cc_logo.png" alt="logo" width="200px" />
-
 ClassConnect es una plataforma de gestión educativa diseñada para facilitar la enseñanza y el aprendizaje en entornos digitales. Su propósito es permitir que docentes y estudiantes interactúen de manera efectiva mediante la creación de clases, asignaciones, exámenes, y recursos educativos en línea. La plataforma evalua integrar un modelo LLM para mejorar la generación de contenido educativo, automatizar correcciones y proporcionar asistencia personalizada a estudiantes y docentes.
+
+<div align="center">
+<img src="./img/cc_logo.png" alt="logo" width="80px" />
+</div>
 
 ## Documentación general
 
