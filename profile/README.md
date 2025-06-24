@@ -10,7 +10,7 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 
 | Documento                       | Link |
 |----------------------------------|------|
-| Arquitectura & Diseño            | <p align="center">[[>]](./tech/architecture.md)</p> |
+| Arquitectura & Infraestructura            | <p align="center">[[>]](./tech/architecture.md)</p> |
 | Manual de usuario Backoffice     | <p align="center">[[>]](./man/backoffice.md)</p> |
 | Manual de usuario Mobile         | <p align="center">[[>]](./man/mobile.md)</p> |
 | Backlog & Organización           | <p align="center">[[>]](./misc/backlog.md)</p> |
