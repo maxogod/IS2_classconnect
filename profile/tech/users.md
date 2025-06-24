@@ -1,3 +1,3 @@
 # Bla
 
-[< Go back home](../README.md)
+[[<] Go back home](../README.md)
