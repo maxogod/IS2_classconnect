@@ -6,6 +6,20 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 <img src="./img/cc_logo.png" alt="logo" width="80px" />
 </div>
 
+![Linode](https://img.shields.io/badge/Linode-00A95C?logo=linode&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![Kong](https://img.shields.io/badge/Kong-002659?logo=kong&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-FF6F00?logo=docker&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini--AI-4285F4?logo=google&logoColor=white)
+![Codecov](https://img.shields.io/badge/Codecov-F01F7A?logo=codecov&logoColor=white)
+![Gin Gonic](https://img.shields.io/badge/Gin--Gonic-00ADD8?logo=go&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Mobile App](https://img.shields.io/badge/Mobile--App-20232a?logo=react&logoColor=61dafb)
+![Web App](https://img.shields.io/badge/Web--App-61DAFB?logo=react&logoColor=black)
+
 ## Documentación general
 
 Documentos orientados a dar una visión global del sistema, su estructura, uso y proceso de desarrollo.
