@@ -12,6 +12,14 @@ A pesar de los beneficios obtenidos por esta herramienta, debido a la empinada c
 
 !niko has lo tuyo
 
+## Uso de notificaciones (email/push)
+
+!joako has lo tuyo
+
+## Uso de gemini (AI)
+
+!martin has lo tuyo
+
 ## Backlog
 
 Como se menciona en el documento sobre la gestion del proyecto, se confecciono la enteridad del backlog desde el inicio del proyecto, esto si bien ahorro tiempo futuro de re-lectura de las historias de usuario, tambien llevo a una considerable cantidad de cambios sobre dichas *issues* mayormente por temas de cambios de responsabilidades entre servicios, entre otras cosas. El equipo considero que lo mas efectivo hubiese sido confeccionar el backlog en una reunion *por iteracion* a medida que avanza el proyecto para evitar cambios y que las *issues* sean mas representativas del estado del momento.
