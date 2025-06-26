@@ -25,7 +25,7 @@ A medida que avanzo el proyecto, algunas *features* (opcionales) se dieron de ba
 
 Finalmente se logro cumplir el objetivo de concluir con el backlog requerido y el backlog opcional.
 
-### Historias requeridas
+### Historias requeridas (resumen)
 
 | Categoría                      | Historias Principales                              |
 |--------------------------------|----------------------------------------------------------|
