@@ -1,0 +1,20 @@
+# Pipelines
+
+[[<] Go back home](../README.md)
+
+Cada micro-servicio cuenta con pipelines de intregracion continua y despliegue continuo (implementados con github-actions),
+que estan conformados por un pipeline de pre-commit, uno de tests y finalmente uno de 
+despliegue (solamente cuando se aceptan los cambios a la rama de produccion), los cuales se abordan a continuacion:
+
+Ramas con activacion de pipelines:
+
+- Dev (staging branch): todo lo que se acepta en esta rama se tiene que probar y garantizar su buen funcionamiento para seguir al proximo paso.
+- Main (production branch): todo lo que se acepta en esta rama, automaticamente se aplican los cambios en la nube (en este caso en k8s).
+
+## Tests
+
+Los pipelines de tests consisten en la ejecucion de las pruebas unitarias y de integracion encontradas en el repositorio y el
+*logueo* en un archivo conteniendo la informacion de covertura de tests proporcionada por la herramienta utilizada `go test` en el caso de los
+micro-servicios cuyo stack utiliza **go**, o `pytest` en el caso de **python**.
+
+Luego de esto se transmite la informacion al servicio de coverage utilizado en el proyecto **CodeCov**
