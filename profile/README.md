@@ -27,6 +27,7 @@ Documentos orientados a dar una visión global del sistema, su estructura, uso y
 | Documento                       | Link |
 |----------------------------------|------|
 | Arquitectura & Infraestructura            | <p align="center">[[>]](./tech/architecture.md)</p> |
+| Pipelines            | <p align="center">[[>]](./tech/pipelines.md)</p> |
 | Manual de usuario Backoffice     | <p align="center">[[>]](./man/backoffice.md)</p> |
 | Manual de usuario Mobile         | <p align="center">[[>]](./man/mobile.md)</p> |
 | Backlog & Organización           | <p align="center">[[>]](./misc/backlog.md)</p> |
