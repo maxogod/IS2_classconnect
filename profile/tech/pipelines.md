@@ -11,7 +11,7 @@ Ramas con activacion de pipelines:
 - Dev (staging branch): todo lo que se acepta en esta rama se tiene que probar y garantizar su buen funcionamiento para seguir al proximo paso.
 - Main (production branch): todo lo que se acepta en esta rama, automaticamente se aplican los cambios en la nube (en este caso en k8s).
 
-## Tests
+## Tests (on pull request - dev, main)
 
 Los pipelines de tests consisten en la ejecucion de las pruebas unitarias y de integracion encontradas en el repositorio y el
 *logueo* en un archivo conteniendo la informacion de covertura de tests proporcionada por la herramienta utilizada, `go test` en el caso de los
@@ -22,3 +22,7 @@ utilizando el secret correspondiente (guardado de forma segura en el repositorio
 
 A partir de que CodeCov recibe esta informacion y la procesa, este re-calcula el coverage actual del servicio afectado y automaticamente
 comenta en la *Pull Request* si la misma cumple lo minimo de coverage esperado para la introduccion de nuevo codigo (caso contrario, falla el pipeline).
+
+## Pre-Commit (on pull request - main)
+
+## Deploy (on push - main)
