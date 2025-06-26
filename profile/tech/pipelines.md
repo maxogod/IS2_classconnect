@@ -14,7 +14,7 @@ Ramas con activacion de pipelines:
 ## Tests
 
 Los pipelines de tests consisten en la ejecucion de las pruebas unitarias y de integracion encontradas en el repositorio y el
-*logueo* en un archivo conteniendo la informacion de covertura de tests proporcionada por la herramienta utilizada `go test` en el caso de los
+*logueo* en un archivo conteniendo la informacion de covertura de tests proporcionada por la herramienta utilizada, `go test` en el caso de los
 micro-servicios cuyo stack utiliza **go**, o `pytest` en el caso de **python**.
 
 Luego de esto se transmite la informacion al servicio de coverage utilizado en el proyecto [**CodeCov**](https://app.codecov.io/gh/ClassConnect-org)
