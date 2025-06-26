@@ -30,6 +30,12 @@ Fue ese el momento en el que se decidió investigar una alternativa algo menos r
 
 La conclusión que se puede extraer de esto es: Nada es gratis. Menos si es bueno.
 
+## Alertas de monitoreo
+
+A continuacion se destaca un hecho que ocurrio durante el desarrollo del proyecto y concierne al sistema de monitoreo, especificamente a las alertas de sobre-uso de memoria.
+
+A los administradores de la plataforma, cuyos emails se encuentran registrados en el google groups de administradores mencionado en el documento de [datadog](../tech/datadog.md), les llego una serie de emails, conteniendo informacion de aviso que uno de los nodos que forman parte del cluster de k8s tenia solamente 10% de la memoria restante sin utilizar. Esto llamo la antencion ya que nunca se habia activado dicha alarma, por lo que el equipo comenzo a investigar sobre la causa de la misma. Observando detenidamente las metricas capturadas en uno de los dashboards de la plataforma de datadog, se detecto que los micro-servicios cuyo stack tecnologico constaba de **python + fastapi**, consumian mucha mas memoria ram que el resto de servicios (de **go**). Finalmente se descubrio la causa al leer documentacion sobre fastapi y su comportamiento al configurar una cantidad mayor a 1 de *worker threads*, que ocaciona una subida significativa del uso del CPU y de la memoria, por lo que al disminuir la cantidad de dichos workers a 1, el problema fue solucionado.
+
 ## Backlog
 
 Como se menciona en el documento sobre la gestion del proyecto, se confecciono la enteridad del backlog desde el inicio del proyecto, esto si bien ahorro tiempo futuro de re-lectura de las historias de usuario, tambien llevo a una considerable cantidad de cambios sobre dichas *issues* mayormente por temas de cambios de responsabilidades entre servicios, entre otras cosas. El equipo considero que lo mas efectivo hubiese sido confeccionar el backlog en una reunion *por iteracion* a medida que avanza el proyecto para evitar cambios y que las *issues* sean mas representativas del estado del momento.
