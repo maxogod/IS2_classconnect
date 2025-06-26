@@ -1,6 +1,6 @@
 # Microservício de Notificaciones
 
-Este microservicio surge con el fin de proveer al resto de microservicios de la aplicación un punto en comun donde enviar las notificaciones relevantes del sistema hacia los usuarios. Para esto mantiene un registro de los permisos que otorga el usuario desde la aplicación y envía notificaciones en masa filtrando los permisos establecidos. 
+Este microservicio surge con el fin de proveer al resto de microservicios de la aplicación un punto en comun donde enviar las notificaciones relevantes del sistema hacia los usuarios. Para esto mantiene un registro de los permisos que otorga el usuario desde la aplicación y envía notificaciones en masa filtrando los permisos establecidos. Implementado en FastApi dado a su amplia disponibilidad de SDKs para los requerimientos del servicio.
 
 ## Estructura
 
@@ -66,7 +66,7 @@ El sistema registra toda notificación Push enviada hacia cada usuario para pode
 
  - UUID del destinatario
 
- - Campo read: boolean para marcar si la notificación fue leída por el usuario
+ - Campo read: booleano para marcar si la notificación fue leída por el usuario
 
 ## Registro de las notificaciones
 
