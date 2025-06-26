@@ -2,7 +2,7 @@
 
 [[<] Go back home](../README.md)
 
-Como se menciono en el documento de [arquitectura](./architecture.md), para unificar todos los servidores en una misma interfaz (hacia el exterior) se utilizo un api-gateway. En este caso, se eligió **Kong** por su robustez, extensibilidad y facilidad de integración con Kubernetes.
+Como se menciono en el documento de [arquitectura](./architecture.md), para unificar todos los servidores en una misma interfaz (hacia el exterior) se utilizo un [api-gateway](https://github.com/ClassConnect-org/api-gateway). En este caso, se eligió **Kong** por su robustez, extensibilidad y facilidad de integración con Kubernetes.
 
 ## Integracion en k8s
 
