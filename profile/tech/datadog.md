@@ -2,7 +2,7 @@
 
 [[<] Go back home](../README.md)
 
-Como se menciono en el documento de [arquitectura](./architecture.md), para este proyecto, se tomo la decicion de utlizar las herramientas y plataforma provista por Datadog para el monitoreo de los sistemas y del rendimiento de los servidores. Los servicios de datadog que se discuten a continuacion fueron instalados en elcluster de k8s del proyecto por medio del repositorio de IaC [datadog-metrics](https://github.com/ClassConnect-org/datadog-metrics).
+Como se menciono en el documento de [arquitectura](./architecture.md), para este proyecto, se tomo la decicion de utlizar las herramientas y plataforma provista por Datadog para el monitoreo de los sistemas y del rendimiento de los servidores. Los servicios de datadog que se discuten a continuacion fueron instalados en el cluster de k8s del proyecto por medio del repositorio de IaC [datadog-metrics](https://github.com/ClassConnect-org/datadog-metrics).
 
 ## Datadog Cluster Agent
 
