@@ -16,4 +16,20 @@ Previo a la confeccion del backlog y la creacion de las tareas, se configuro un 
 
 ## Backlog
 
-El backlog de la aplicacion se dividio en 4 iteraciones, correspondientes a los 4 checkpoints disponibles en la [homepage](../README.md), y se crearon etiquetas para la urgencia de implementacion asi como tambien una estimacion del tamaño de cada *ticket* a completar.
+El backlog del proyecto se dividio en 4 iteraciones, correspondientes a los 4 checkpoints disponibles en la [homepage](../README.md), y se crearon etiquetas para la urgencia de implementacion asi como tambien una estimacion del tamaño de cada *ticket* a completar.
+
+Antes de iniciar el proceso de desarrollo se crearon todas las issues iniciales, teniendo en cuenta las historias de usuarios y criterios de aceptacion.
+
+A medida que avanzo el proyecto, algunas *features* (opcionales) se dieron de baja y fueron marcadas como **no planeadas**, otras mutaron, otras migraron a otro repositorio mas acorde y otras se dividieron en tickets mas pequeños.
+
+Finalmente se logro cumplir el objetivo de concluir con el backlog requerido y el backlog opcional.
+
+### Historias requeridas
+
+!insertar tabla y screenshots de gh project
+
+### Historias opcionales
+
+- Uso de *kubernetes* (8 pts)
+- Chat AI (8 pts)
+-
