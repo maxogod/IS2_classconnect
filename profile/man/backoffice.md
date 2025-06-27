@@ -82,6 +82,8 @@ Cuando una respuesta del chatbot Navi recibe una valoración (positiva o negativ
 
 En caso de uso malicioso o abusivo del sistema, el administrador podrá ver los detalles del usuario que realizó la consulta para tomar las medidas necesarias.
 
+![profile/img/Backoffice_ChatAINavi.png](https://github.com/ClassConnect-org/.github/blob/779343edd78700c563133e87c7e2e262edb98f93/profile/img/Backoffice_ChatAINavi.png)
+
 ## Manejo de Administradores
 
 Finalmente los administradores podran acceder a la tabla de administradores donde podran buscar la existencia de un administrador segun su email y crear nuevos administradores. Esta es la unica forma de convertirse en administrador y lograr acceso al backoffice.
