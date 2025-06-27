@@ -4,6 +4,12 @@
 
 Este microservicio fue desarrollado para proporcionar una funcionalidad de foro simple para los cursos dentro de la aplicación ClassConnect. El servicio está implementado en Go utilizando el framework Gin.
 
+| Layer         | Technology  |
+|---------------|-------------|
+| Language      | [Go](https://go.dev/)          |
+| Web Framework | [Gin-Gonic](https://github.com/gin-gonic/gin)   |
+| DB Driver     | [MongoGoDriver](https://github.com/mongodb/mongo-go-driver)         |
+
 ## Estructura
 
 Se utiliza la arquitectura package by layer, donde los controladores se pueden encontrar en la carpeta handlers, los servicios en services y el repositorio en repository.
@@ -56,7 +62,5 @@ Los usuarios pueden votar tanto preguntas como respuestas:
 ## Notificar Eventos
 
 Cada vez que ocurre una acción relevante (nueva respuesta a mi pregunta, selección de respuesta correcta, recepción de voto positivo), se genera una notificación de tipo Push utilizando el microservicio de notificaciones.
-
-
 
 [[<] Go back home](../README.md)
