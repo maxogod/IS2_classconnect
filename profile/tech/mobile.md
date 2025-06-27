@@ -16,8 +16,8 @@
 
 ## Comunicacion con otros microservicios
 
-- Users
-- Courses
-- Forum
-- AI
-- Notifications
+- Users: autentificacion, recuperos, busquedas y visualizacion de perfiles.
+- Courses: manejo de cursos, tareas, examenes, modulos, estadisticas, correcciones, etc.
+- Forum: creacion de preguntas, votos, respuestas y etiquetas.
+- AI: chateo, consultas y criticas constructivas.
+- Notifications: obtencion de notificaciones push e historial de las mismas.
