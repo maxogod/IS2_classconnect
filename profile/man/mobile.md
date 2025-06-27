@@ -25,6 +25,7 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 - [Crear y corregir exámenes](#crear-y-corregir-exámenes)
 - [Ver estadísticas del curso](#ver-estadísticas-del-curso)
 - [Ver estadísticas de estudiante](#ver-estadísticas-de-estudiante)
+- [Ver log de profesores auxiliares](#ver-log-de-profesores-auxiliares)
 - [Terminar curso y graduaciones](#terminar-curso-y-graduaciones)
 
 ### Misceláneo:
@@ -84,6 +85,10 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 ...
 
 ## Ver estadísticas de estudiante
+
+...
+
+## Ver log de profesores auxiliares
 
 ...
 
