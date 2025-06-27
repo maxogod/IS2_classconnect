@@ -3,9 +3,17 @@
 [[<] Go back home](../README.md)
 
 ## Introducción 
+
 Este microservicio fue diseñado con el fin de proveer un chat de asistencia para la plataforma. Se propuso que dicho chat sea capaz de procesar el lenguaje natural humano y que tenga la capacidad de brindar respuestas precisas y rápidas a preguntas puntuales. Además, dichas respuestas deberían poder ser calificadas por los usuarios de forma tal que el chat se vuelva más preciso mientras más usado sea.
 Para lograr ese cometido, se decidió usar la API de Gemini.
 
+## Stack
+
+| Layer         | Technology  |
+|---------------|-------------|
+| Language      | [Python](https://www.python.org/)          |
+| Web Framework | [Fastapi](https://fastapi.tiangolo.com/)   |
+| DB Driver     | [Psycopg2](https://pypi.org/project/psycopg2/)         |
 
 ## Estructura
 
