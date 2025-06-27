@@ -25,4 +25,20 @@ comenta en la *Pull Request* si la misma cumple lo minimo de coverage esperado p
 
 ## Pre-Commit (on pull request - main)
 
+Los pipelines de pre-commit son mas simples, estos solo se encargan de correr una serie de checkeos del codigo (dependiente del stack usado),
+para garantizar la homogeneidad del mismo, evitando errores de sintaxis, malos formatos, mal uso de tipos, etc. Si hay un problema
+en alguno de los checks mencionados, el pipeline falla.
+
 ## Deploy (on push - main)
+
+Finalmente cuando el codigo pasa los filtros y es aceptado para formar parte de la version en produccion del servicio, se ejecuta el pipeline de deployment.
+
+Este se encarga de:
+
+- Contruir la imagen de docker a partir del Dockerfile encontrado en la raiz de cada repositorio.
+- Autenticarse en github container repository (**ghcr**).
+- Subir la imagen de docker construida como [*package*](https://github.com/orgs/ClassConnect-org/packages) a GHCR.
+- Crear el secreto en k8s para poder descargar dicha imagen desde el repositorio.
+- Ejecuta la instalacion con *heml* del servicio en el cluster de k8s, inyectando los secretos necesarios (almacenados de manera segura en gh repository secrets).
+
+Luego de ejecutado este pipeline, se descarta el deployment anterior en el cluster y se crea el nuevo pod actualizado (eliminando al viejo).
