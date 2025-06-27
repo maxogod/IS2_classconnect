@@ -24,7 +24,7 @@ Por suerte luego de muchos intentos de prueba y error, conseguimos dos servicios
 
 [Brevo](https://www.brevo.com/es/), cuenta una interfaz muy sencilla de utilizar y un generador de plantillas bastante práctico, el único detalle es que al pasarle variables dinamicas para colocar nuestro cuerpo no permitía que el contenido sea en formato html (o que siquiera tome los saltos de linea). Esto se soluciono trayendo el codigo html directo al servicio y reemplando desde el mismo código los placeholders para nuestros asuntos y cuerpos de los emails. 
 
-[OneSignal](https://onesignal.com), la mayor sorpresa del proyecto. Bastante sencillo de setear y con una funcionalidad muy practica que simplifico lo que sería la comunicación entre el front y el back. El servicio te permite asociar un id con el token de notificaciones, por ende no es necesario llevar información especifica de onesignal y el back no necesita asociar los datos pasados por otros microservicios a la hora de enviar notificaciones. Sin duda lo recomendamos para futuros proyectos de la materia.
+[OneSignal](https://onesignal.com), la mayor sorpresa del proyecto. Bastante sencillo de setear y con una funcionalidad muy práctica que simplificó lo que sería la comunicación entre el front y el back. El servicio te permite asociar un id con el token de notificaciones, por ende no es necesario llevar información especifica de onesignal y el back no necesita asociar los datos pasados por otros microservicios a la hora de enviar notificaciones. Sin duda lo recomendamos para futuros proyectos de la materia.
 
 ## Uso de gemini (AI)
 
