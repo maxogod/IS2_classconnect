@@ -4,6 +4,12 @@
 
 Este microservicio surge con el fin de proveer al resto de microservicios de la aplicación un punto en común donde enviar las notificaciones relevantes del sistema hacia los usuarios. Para esto mantiene un registro de los permisos que otorga el usuario desde la aplicación y envía notificaciones en masa filtrando los permisos establecidos. Se implemento en FastApi dado a su amplia disponibilidad de SDKs para los requerimientos del servicio.
 
+| Layer         | Technology  |
+|---------------|-------------|
+| Language      | [Python](https://www.python.org/)          |
+| Web Framework | [Fastapi](https://fastapi.tiangolo.com/)   |
+| DB Driver     | [Motor](https://github.com/mongodb/motor)         |
+
 ## Estructura
 
 Se utiliza la arquitectura package by layer, donde los controladores se pueden encontrar en la carpeta api/endpoints, los servicios en services y los repositorios en repository.
