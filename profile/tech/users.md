@@ -6,9 +6,9 @@
 
 | Layer         | Technology  |
 |---------------|-------------|
-| Language      | Go          |
-| Web Framework | Gin-Gonic   |
-| DB Driver     | Gorm        |
+| Language      | [Go](https://go.dev/)          |
+| Web Framework | [Gin-Gonic](https://github.com/gin-gonic/gin)   |
+| DB Driver     | [Pgx](https://github.com/jackc/pgx)         |
 
 ## Responsabilidades
 
