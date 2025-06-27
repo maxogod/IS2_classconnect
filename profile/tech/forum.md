@@ -1,5 +1,7 @@
 # Microservicio de Foro
 
+[[<] Go back home](../README.md)
+
 Este microservicio fue desarrollado para proporcionar una funcionalidad de foro simple para los cursos dentro de la aplicación ClassConnect. El servicio está implementado en Go utilizando el framework Gin.
 
 ## Estructura
@@ -34,6 +36,3 @@ Cada Respuesta cuenta con los siguientes datos:
  - Cantidad total de votos
  - Lista de votos positivos
  - Lista de votos negativos
-
-
-[[<] Go back home](../README.md)
