@@ -1,5 +1,7 @@
 # Microservicio de Inteligencia Artificial
 
+[[<] Go back home](../README.md)
+
 ## Introducción 
 Este microservicio fue diseñado con el fin de proveer un chat de asistencia para la plataforma. Se propuso que dicho chat sea capaz de procesar el lenguaje natural humano y que tenga la capacidad de brindar respuestas precisas y rápidas a preguntas puntuales. Además, dichas respuestas deberían poder ser calificadas por los usuarios de forma tal que el chat se vuelva más preciso mientras más usado sea.
 Para lograr ese cometido, se decidió usar la API de Gemini.
@@ -80,6 +82,3 @@ Se utiliza **DataFrame** de **Pandas** acompañado por **Numpy** para representa
 ## Conclusión
 
 En conclusión, este microservicio integra de forma efectiva un LLM de alto rendimiento  con un almacenamiento semántico (Supabase y pgvector) para ofrecer respuestas contextuales y precisas. El sistema es mantenible, escalable y fácilmente extensible. En definitiva, este diseño garantiza equilibrio  entre rendimiento, coste y calidad de las respuestas.
-
-
-[[<] Go back home](../README.md)
