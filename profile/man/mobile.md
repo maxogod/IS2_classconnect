@@ -6,8 +6,8 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 
 ## Índice
 
-### Como nuevo usuario:
-- [Inicio de sesión & Registro](#inicio-de-sesión--registro)
+### Inicio:
+- [Inicio de sesión & registro](#inicio-de-sesión--registro)
 - [Homepage (Mis cursos)](#homepage-mis-cursos)
 - [Perfil y opciones](#perfil-y-opciones)
 - [Navi (AI Chatbot)](#navi-ai-chatbot)
