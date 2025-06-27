@@ -2,6 +2,14 @@
 
 [[<] Go back home](../README.md)
 
+## Stack
+
+| Layer         | Technology  |
+|---------------|-------------|
+| Language      | Go          |
+| Web Framework | Gin-Gonic   |
+| DB Driver     | Gorm        |
+
 ## Responsabilidades
 
 Las responsabilidades de este microservicio son las siguientes:
@@ -26,3 +34,7 @@ Una vez que el usuario tiene el token con su sesion, este podra comunicarse con 
 Este microservicio, como se menciono en el documento de arquitectura, utiliza una base de datos PostgreSQL hosteada en Supabase. Las tablas presentes en la misma se pueden ver a partir de las migraciones creadas en el [repositorio del servicio](https://github.com/ClassConnect-org/users-microservice).
 
 A su vez se utiliza un *bucket* (tambien hosteado en supabase) llamado 'profiles', que se utiliza para almacenar las fotos de perfil de los usuarios registrados en la plataforma.
+
+## Comunicacion con otros microservicios
+
+- Notifications: utiliza el servicio de notificaciones para el envio de codigos para la verificacion y para mensajes de bienvenida.
