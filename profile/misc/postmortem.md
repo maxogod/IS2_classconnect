@@ -15,7 +15,9 @@ A pesar de los beneficios obtenidos por esta herramienta, debido a la empinada c
 ## Servicios de notificaciones (email/push)
 
 O mejor dicho, los mil y un problemas de dependencias. Uno de esos servicios que parecía sencillo de llevar a cabo, termino necesitando 5 procesos de refactorización. En parte cae en mi culpa por ansioso y no leer todos los detalles antes de empezar a implementar, pero eso no quita la dificultad para encontrar el servicio indicado para un proyecto educativo. 
+
 Ya sea la falta de un dominio web para establecer conexiones seguras de email (requerido por la mayoria de los proveedores de correos transaccionales), o utilizar el simple relay de google, el cual funcionaba perfecto de manera local, pero una vez deployado, Linode nos bloqueaba las comunicaciones de los puertos STMP por contar con la cuenta freemium y de paso nos recomendaba utilizar su servicio pago. 
+
 Por el lado de las notificaciones push las cosas parecían prometedoras desde el back, pero como se comento en la sección de react-native, con solo instalar la sdk oficial de google los errores de dependecias eran interminables y no hubo forma de hacer que compile la aplicación. Tras unas semanas en stand-by desde el lado del back decimos buscar otra alternativa. 
 
 Por suerte luego de muchos intentos de prueba y error, conseguimos dos servicios que cumplen las expectativas de lo que se espera para el proyecto. 
