@@ -85,7 +85,10 @@ Por cada una de esas entradas, el administrador tiene 3 opciones:
 #### Una vez que hay un chat para subir a Documents
 Se utiliza **DataFrame** de **Pandas** acompañado por **Numpy** para representar la pregunta hecha originalmente como un vector de 768 dimensiones. Este vector es el que será usado en las busquedas semanticas.
 
+## Comunicacion con otros microservicios
 
+- Users: utilizado para obtener metadata.
+- Courses: utilizado para obtener metadata.
 
 ## Conclusión
 
