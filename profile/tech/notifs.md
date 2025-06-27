@@ -1,5 +1,7 @@
 # Microservicio de Notificaciones
 
+[[<] Go back home](../README.md)
+
 Este microservicio surge con el fin de proveer al resto de microservicios de la aplicación un punto en común donde enviar las notificaciones relevantes del sistema hacia los usuarios. Para esto mantiene un registro de los permisos que otorga el usuario desde la aplicación y envía notificaciones en masa filtrando los permisos establecidos. Se implemento en FastApi dado a su amplia disponibilidad de SDKs para los requerimientos del servicio.
 
 ## Estructura
@@ -73,5 +75,3 @@ El sistema registra toda notificación Push enviada hacia cada usuario para pode
 El sistema registra todo intento de envio de Notificaciones, guardando el contenido que intento enviar y el estado del mismo, ya sea enviado, no enviado por falta de permisos o error del servicio. Para obtener los registros se creo un endpoint que solo puede ser utilizado por administradores.
 
 ⚠️ Deuda pendiente de seguridad: El envio de emails por correo electronico explícito no realiza una verificación del solicitante. La solución podría darse teniendo una API KEY entre los servicios. También podriamos aceptar este tipo de mensajes tan solo si el solicitante viene de una red privada no una pública.
-
-[[<] Go back home](../README.md)
