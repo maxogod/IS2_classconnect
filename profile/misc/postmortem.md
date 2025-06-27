@@ -14,17 +14,17 @@ A pesar de los beneficios obtenidos por esta herramienta, debido a la empinada c
 
 ## Servicios de notificaciones (email/push)
 
-O mejor dicho, los mil y un problemas de dependencias. Uno de esos servicios que parecía sencillo de llevar a cabo, termino necesitando 5 procesos de refactorización. En parte cae en mi culpa por ansioso y no leer todos los detalles antes de empezar a implementar, pero eso no quita la dificultad para encontrar el servicio indicado para un proyecto educativo. 
+O mejor dicho, los mil y un problemas de dependencias. Uno de los servicios que parecía sencillo de llevar a cabo, termino necesitando 5 procesos de refactorización. En parte cae en mi culpa por ansioso y no leer todos los detalles antes de empezar a implementar, pero eso no quita la dificultad para encontrar el servicio indicado para un proyecto educativo. 
 
-Ya sea la falta de un dominio web para establecer conexiones seguras de email (requerido por la mayoria de los proveedores de correos transaccionales), o utilizar el simple relay de google, el cual funcionaba perfecto de manera local, pero una vez deployado, Linode nos bloqueaba las comunicaciones de los puertos STMP por contar con la cuenta freemium y de paso nos recomendaba utilizar su servicio pago. 
+Ya sea la falta de un dominio web para establecer conexiones seguras de email (requerido por la mayoria de los proveedores de correos transaccionales). O bien el simple relay de google, el cual funcionaba perfecto de manera local, pero una vez deployado Linode nos bloqueaba las comunicaciones de los puertos STMP por contar con la cuenta freemium, de paso recomendandonos de utilizar su servicio pago. 
 
 Por el lado de las notificaciones push las cosas parecían prometedoras desde el back, pero como se comento en la sección de react-native, con solo instalar la sdk oficial de google los errores de dependecias eran interminables y no hubo forma de hacer que compile la aplicación. Tras unas semanas en stand-by desde el lado del back decimos buscar otra alternativa. 
 
 Por suerte luego de muchos intentos de prueba y error, conseguimos dos servicios que cumplen las expectativas de lo que se espera para el proyecto. 
 
-[Brevo](https://www.brevo.com/es/), cuenta una interfaz muy sencilla de utilizar y un generador de plantillas bastante práctico, el único detalle es que al pasarle variables dinamicas para colocar nuestro cuerpo no permitía que el contenido sea en formato html (o que siquiera tome los saltos de linea). Esto se soluciono trayendo el codigo html directo al servicio y reemplando desde el mismo código los placeholders para nuestros asuntos y cuerpos de los emails. 
+[Brevo](https://www.brevo.com/es/), cuenta una interfaz muy sencilla de utilizar y un generador de plantillas bastante práctico, el único detalle en contra es que al pasarle variables dinamicas para colocar nuestro cuerpo no permitía que el contenido sea en formato html (o que siquiera tome los saltos de linea). Esto se soluciono trayendo el codigo html directo al servicio y reemplazando desde el mismo código los placeholders para nuestros asuntos y cuerpos de los emails. 
 
-[OneSignal](https://onesignal.com), la mayor sorpresa del proyecto. Bastante sencillo de setear y con una funcionalidad muy práctica que simplificó lo que sería la comunicación entre el front y el back. El servicio te permite asociar un id con el token de notificaciones, por ende no es necesario llevar información especifica de onesignal y el back no necesita asociar los datos pasados por otros microservicios a la hora de enviar notificaciones. Sin duda lo recomendamos para futuros proyectos de la materia.
+[OneSignal](https://onesignal.com), la mayor sorpresa del proyecto. Bastante sencillo de setear y con una funcionalidad muy práctica que simplificó lo que sería la comunicación entre el front y el back. El servicio te permite asociar un id con el token de notificaciones, por ende no es necesario llevar información especifica de onesignal y convenientemente el back no necesita asociar los datos pasados por otros microservicios a la hora de enviar notificaciones. Sin duda lo recomendamos para futuros proyectos de la materia.
 
 ## Uso de gemini (AI)
 
