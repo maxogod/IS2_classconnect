@@ -2,6 +2,14 @@
 
 Este microservicio está encargado de gestionar las funcionalidades administrativas del sistema ClassConnect, incluyendo el manejo de reglas, auditoría de cambios, administración de cuentas y control de sesiones de los administradores.
 
+## Stack
+
+| Layer         | Technology  |
+|---------------|-------------|
+| Language      | [Python](https://www.python.org/)          |
+| Web Framework | [Fastapi](https://fastapi.tiangolo.com/)   |
+| DB Driver     | [Pymongo](https://pypi.org/project/pymongo/)         |
+
 ## Estructura
 
 Se colocan los controladores en la carpeta controllers y los servicios en services con manejo de la base de datos.
