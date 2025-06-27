@@ -2,6 +2,14 @@
 
 [[<] Go back home](../README.md)
 
+## Stack
+
+| Layer         | Technology  |
+|---------------|-------------|
+| Language      | Go          |
+| Web Framework | Gin-Gonic   |
+| DB Driver     | Pgx         |
+
 ## Responsabilidades
 
 Las responsabilidades de este microservicio son las siguientes:
@@ -18,3 +26,7 @@ Las responsabilidades de este microservicio son las siguientes:
 Este microservicio, como se menciono en el documento de arquitectura, utiliza una base de datos PostgreSQL hosteada en Supabase. Las tablas presentes en la misma se pueden ver a partir de las migraciones creadas en el [repositorio del servicio](https://github.com/ClassConnect-org/courses-microservice).
 
 A su vez se utilizan tres *buckets* (tambien hosteados en supabase) llamados 'courses-pictures', 'courses-modules', 'courses-assignment-resource', que se utilizan para almacenar imagenes de cursos, recursos para modulos (imagenes, documentos, tablas, etc) y recursos para tareas o trabajos practicos.
+
+## Comunicacion con otros microservicios
+
+- Notifications: utiliza el servicio de notificaciones para aviso cierta actividad como tarea corregida, curso aprobado, expulsion, etc.
