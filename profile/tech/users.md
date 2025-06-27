@@ -12,7 +12,7 @@ Las responsabilidades de este microservicio son las siguientes:
 - Garantizar unicidad de cuentas, realizando un *merge* cuando el usuario lo pide.
 - Manejo de perfiles y actualizaciones.
 - Busquedas entre los usuarios de la plataforma.
-- Administracion de usuarios (bloqueos y eliminaciones).
+- Administracion de usuarios (bloqueos y eliminaciones) garantizando que sea un administrador (utilizando un admin-token, generado por el micro-servicio de administration).
 
 ## Stateless sessions
 
