@@ -15,7 +15,7 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 ### Como estudiante:
 - [Buscar cursos](#buscar-cursos)
 - [Unirse y salir de un curso](#unirse-y-salir-de-un-curso)
-- [Ver To-Do](#ver-to-do)
+- [Ver to-do](#ver-to-do)
 - [Completar tareas y exámenes](#completar-tareas-y-exámenes)
 
 ### Como profesor:
@@ -31,7 +31,7 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 - [Preguntas y respuestas en foro](#preguntas-y-respuestas-en-foro)
 - [Notificaciones](#notificaciones)
 
-## Inicio de sesión & Registro
+## Inicio de sesión & registro
 
 ...
 
@@ -55,7 +55,7 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 
 ...
 
-## Ver To-Do
+## Ver to-do
 
 ...
 
