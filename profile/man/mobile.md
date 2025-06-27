@@ -15,6 +15,7 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 ### Como estudiante:
 - [Buscar cursos](#buscar-cursos)
 - [Unirse y salir de un curso](#unirse-y-salir-de-un-curso)
+- [Ver To-Do](#ver-to-do)
 - [Completar tareas y exámenes](#completar-tareas-y-exámenes)
 
 ### Como profesor:
@@ -51,6 +52,10 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 ...
 
 ## Unirse y salir de un curso
+
+...
+
+## Ver To-Do
 
 ...
 
