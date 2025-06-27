@@ -50,14 +50,14 @@ Contiene la configuracion del kong-api-gateway y herramientas de monitoreo.
 
 Servicios independientes que componen la lógica del negocio.
 
-| Servicio        | Docs                                               | Repo                                 |
-|-----------------|----------------------------------------------------|--------------------------------------|
-| Users           | <p align="center">[[>]](./tech/users.md)</p>       | <p align="center">[[>]](https://github.com/ClassConnect-org/users-microservice)</p> |
-| Courses         | <p align="center">[[>]](./tech/courses.md)</p>     | <p align="center">[[>]](https://github.com/ClassConnect-org/courses-microservice)</p> |
-| Forum           | <p align="center">[[>]](./tech/forum.md)</p>       | <p align="center">[[>]](https://github.com/ClassConnect-org/forum-microservice)</p> |
-| Notifications   | <p align="center">[[>]](./tech/notifs.md)</p>      | <p align="center">[[>]](https://github.com/ClassConnect-org/notifications-microservice)</p> |
-| AI              | <p align="center">[[>]](./tech/ai.md)</p>          | <p align="center">[[>]](https://github.com/ClassConnect-org/ai-microservice)</p> |
-| Administration  | <p align="center">[[>]](./tech/admin.md)</p>       | <p align="center">[[>]](https://github.com/ClassConnect-org/administration-microservice)</p> |
+| Servicio        | Docs                                               | Repo                                 | Coverage |
+|-----------------|----------------------------------------------------|--------------------------------------|----------|
+| Users           | <p align="center">[[>]](./tech/users.md)</p>       | <p align="center">[[>]](https://github.com/ClassConnect-org/users-microservice)</p> | [![codecov](https://codecov.io/gh/ClassConnect-org/users-microservice/graph/badge.svg?token=I5YHR5YBCF)](https://codecov.io/gh/ClassConnect-org/users-microservice) |
+| Courses         | <p align="center">[[>]](./tech/courses.md)</p>     | <p align="center">[[>]](https://github.com/ClassConnect-org/courses-microservice)</p> | [![codecov](https://codecov.io/gh/ClassConnect-org/courses-microservice/graph/badge.svg?token=35RXOMF06U)](https://codecov.io/gh/ClassConnect-org/courses-microservice)       |
+| Forum           | <p align="center">[[>]](./tech/forum.md)</p>       | <p align="center">[[>]](https://github.com/ClassConnect-org/forum-microservice)</p> | [![codecov](https://codecov.io/gh/ClassConnect-org/forum-microservice/graph/badge.svg?token=UP6WVN7FKZ)](https://codecov.io/gh/ClassConnect-org/forum-microservice)       |
+| Notifications   | <p align="center">[[>]](./tech/notifs.md)</p>      | <p align="center">[[>]](https://github.com/ClassConnect-org/notifications-microservice)</p> | [![codecov](https://codecov.io/gh/ClassConnect-org/notifications-microservice/graph/badge.svg?token=IBI08FPSCU)](https://codecov.io/gh/ClassConnect-org/notifications-microservice)       |
+| AI              | <p align="center">[[>]](./tech/ai.md)</p>          | <p align="center">[[>]](https://github.com/ClassConnect-org/ai-microservice)</p> | [![codecov](https://codecov.io/gh/ClassConnect-org/ai-microservice/graph/badge.svg?token=FHR7F372M3)](https://codecov.io/gh/ClassConnect-org/ai-microservice)         |
+| Administration  | <p align="center">[[>]](./tech/admin.md)</p>       | <p align="center">[[>]](https://github.com/ClassConnect-org/administration-microservice)</p> | [![codecov](https://codecov.io/gh/ClassConnect-org/administration-microservice/graph/badge.svg?token=C2Q59PRWV1)](https://codecov.io/gh/ClassConnect-org/administration-microservice)       |
 
 ### Aplicaciones (Frontend)
 
