@@ -14,6 +14,28 @@ Dicho esto, a continuacion se puede ver una representacion grafica de la arquite
 
 ![arquitectura final](../img/arquitectura_final.png)
 
+## Bases de datos
+
+Las bases de datos utilizadas por cada microservicio son aisladas y son las denotadas a continuacion:
+
+| Microservicio     | Base de datos |
+|-------------------|---------------|
+| Users             | PostgreSQL    |
+| Courses           | PostgreSQL    |
+| AI                | PostgreSQL    |
+| Forum             | MongoDB       |
+| Administration    | MongoDB       |
+| Notifications     | MongoDB       |
+
+Los *hostings* de bases de datos utilizados para cada tipo fueron:
+
+| Base de datos     | Host |
+|-------------------|---------------|
+| PostgreSQL        |   Supabase    |
+| MongoDB           | MongoAtlas    |
+
+Adicionalmente los servicios de Users y Courses utilizan los **buckets** para almacenamiento multimedia proporcionados en el mismo plan gratis de *supabase*.
+
 ## Infraestructura empleada
 
 A nivel de infraestructura, se llevo a cabo una investigacion sobre cada uno de los *cloud-providers* que tienen convenio con el pack estudiantil provisto por github, y sobre los proveedores que no tienen convenio, pero que si tienen un *free-tier*. Los criterios del equipo para la seleccion del proveedor, era principalmente que cuente con un motor de *kubernentes* en el free-tier, esto hizo que la busqueda sea mas complicada ya que no es comun en este tipo de proveedores de *cloud-computing* ofrecer ese tipo de servicios bajo ese tier, por lo que tambien se buscaron proveedores con *hosting* para servicios individuales (lo malo de esto es que cada micro-servicio estaria en un host diferente y no en la misma red interna).
