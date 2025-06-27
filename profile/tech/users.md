@@ -1,4 +1,4 @@
-# Microservicio de users
+# Microservicio de usuarios
 
 [[<] Go back home](../README.md)
 
@@ -8,8 +8,11 @@ Las responsabilidades de este microservicio son las siguientes:
 
 - Registro de usuarios e Inicio de sesion por medio de email y contraseña.
 - Ingreso con identidad federada (Google Oauth).
+- Recupero de contraseñas y activaciones de cuentas para identidades no federadas (utiliza micro-servicio de notificaciones para emails).
 - Garantizar unicidad de cuentas, realizando un *merge* cuando el usuario lo pide.
-- 
+- Manejo de perfiles y actualizaciones.
+- Busquedas entre los usuarios de la plataforma.
+- Administracion de usuarios (bloqueos y eliminaciones).
 
 ## Stateless sessions
 
