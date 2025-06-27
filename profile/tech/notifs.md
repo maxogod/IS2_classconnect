@@ -1,4 +1,4 @@
-# Microservício de Notificaciones
+# Microservicio de Notificaciones
 
 Este microservicio surge con el fin de proveer al resto de microservicios de la aplicación un punto en común donde enviar las notificaciones relevantes del sistema hacia los usuarios. Para esto mantiene un registro de los permisos que otorga el usuario desde la aplicación y envía notificaciones en masa filtrando los permisos establecidos. Se implemento en FastApi dado a su amplia disponibilidad de SDKs para los requerimientos del servicio.
 
