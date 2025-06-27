@@ -1,4 +1,4 @@
-#Microservicio de Foro
+# Microservicio de Foro
 
 Este microservicio fue desarrollado para proporcionar una funcionalidad de foro simple para los cursos dentro de la aplicación ClassConnect. El servicio está implementado en Go utilizando el framework Gin.
 
