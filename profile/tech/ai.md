@@ -14,6 +14,7 @@ Para lograr ese cometido, se decidió usar la API de Gemini.
 | Language      | [Python](https://www.python.org/)          |
 | Web Framework | [Fastapi](https://fastapi.tiangolo.com/)   |
 | DB Driver     | [Psycopg2](https://pypi.org/project/psycopg2/)         |
+| AI Model     | [Gemini 2.0 flash](https://aistudio.google.com/welcome)         |
 
 ## Estructura
 
