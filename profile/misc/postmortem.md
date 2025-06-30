@@ -10,7 +10,27 @@ A pesar de los beneficios obtenidos por esta herramienta, debido a la empinada c
 
 ## Uso de react-native 🚧
 
-!niko has lo tuyo
+POST MORTEM
+
+En el caso de no tener experiencia con el front en aplicaciones relativamente grandes, se complica llevar un estructura ordenada de elementos a utilizar, y definir cuales son las buenas prácticas. Quizas sea un tema a adquirir con experiencia pero cuesta también encontrar una guia "definitiva" o parcialmente efectiva para llevar a cabo un orden en el diseño.
+
+Al iniciar fue complicado comprender un poco los comandos ejecutables de React native para limpiar caches, reiniciar la imagen de Gradlew y ver que archivos es recomendable versionar para no perder configuraciones sobre la app, notificaciones y servicios.
+
+Uno de los temas que se tuvo que investigar es como hacer las navegaciones entre vistas de manera correcta, ordenada y sin tener código repetido. El uso en este caso de una barra de navegación lateral no es tan simple de diseñar como se esperaba y requería de más investigación.
+
+De igual manera en el tema de autenticación de google si bien hay guias que si las seguis deberia salir todo bien, no son ordenadas y no siempre salen los resultados como te dicen las guias y hay que buscar información por fuera de las guias.
+También, por tema de no buscar en documentación oficial, se desperdició tiempo utilizando librerias de react native oficial que estaban deprecadas y el compilador no te avisa.
+
+Algunos componentes ya sea en librerias oficiales y de material designs toman demasiado tiempo para implementar, ya sea hasta un simple boton de confirmación, hay que tener experiencia previa con algunos componentes o sentarse a ver la documentación del componente, si es un componente con muchas características se vuelve tedioso, y en termino de este proyecto se optó por utilizar por ejemplo Modal en lugar de componentes avanzados por este motivo.
+
+También otra dificultad encontrada fue que al querer generar e instalar la apk en un celular, no es tan directo y hay que hacer unos cuantos pasos, que tiene varias formas de hacer, pero a pesar de eso, hay detalles que tenés que haber manejado antes, por ejemplo en nuestro proyecto fallaba porque no se usaba una libreria específica "Config" para cargar correctamente las variables de entorno al generar la apk.
+
+Es pésimo que una libreria de Firebase dependa de otra cuando se utilizan sublibrerias de Firebase, tienen que tener toda la misma versión, y tanto desinstalarlas como instalarlas no es tan simple como deberia (gracias npm).
+
+Incluso con muchísima ayuda de la IA ayudandome a configurar correctamente con decenas de errores de creación de imagen apk para desarrollar, se vuelve demasiado tedioso la configuración para poder utilizar una libreria de notificaciones "expo-notifications" y/o "firebase/messaging". Nos salvó la simpleza y efectividad de configuración de OneSignal para notificaciones.
+SonaQube nos ayudó mucho para debuggear mas rapido algunos errores que podian pasar desapercibidos.
+
+Un buen tiempo de desarrollo fue ahorrado al utilizar un celular real para debuggear la aplicación, mediante conexión USB (expo Go no duró mucho ya que si necesita Google Auth ya no funciona, por el momento), con el android emulator trajo muchos problemas de rendimiento y no se supo configurar correctamente.
 
 ## Servicios de notificaciones (email/push)
 
