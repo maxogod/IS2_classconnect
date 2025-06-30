@@ -8,7 +8,7 @@
 |---------------|-------------|
 | Language      | [Go](https://go.dev/)          |
 | Web Framework | [Gin-Gonic](https://github.com/gin-gonic/gin)   |
-| DB Driver     | [Pgx](https://github.com/jackc/pgx)         |
+| DB Driver     | [Gorm](https://gorm.io/index.html)         |
 
 ## Responsabilidades
 
