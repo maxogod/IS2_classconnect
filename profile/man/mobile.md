@@ -93,25 +93,29 @@ Para organizar los módulos, puede tocar el botón "Arrange modules Order" para 
 
 ## Crear y corregir tareas
 
-En la vista de un curso en el que el usuario es profesor, podrá tocar el botón "Add Material" que le permitirá crear una tarea nuevo ingresando el título, las instrucciones y la deadline obligatoriamente.      
+En la vista de un curso en el que el usuario es profesor titular o auxiliar, podrá tocar el botón "Add Material" que le permitirá crear una tarea nueva ingresando el título, las instrucciones, puede agregar hasta 6 archivos de cualquier tipo y anexarlos a la tarea (máximo 10 mB por archivo) y la deadline.
+
 Al ingresar en la vista de Tareas, el usuario tendrá la opción de seleccionar una de ellas. Al hacerlo podrá editar los campos y también ver las entregas de sus alumnos para calificarlas.   
+
 ## Crear y corregir exámenes
 En la vista de un curso en el que el usuario es profesor, podrá tocar el botón "Add Material" que le permitirá crear un examen nuevo ingresando el título, las instrucciones, deadline, puntaje máximo y puntaje mínimo para aprobar obligatoriamente.   
 También tendrá la opción de customizar su prueba, agregando un límite de tiempo y varias preguntas customizables que pueden ser de formato multiple choice, single choice, párrafo a desarrollar o texto corto.   
 Al ingresar en la vista de Tareas, el usuario tendrá la opción de seleccionar una de ellas. Al hacerlo podrá editar los campos y también ver las entregas de sus alumnos para calificarlas.    
 
 ## Ver estadísticas del curso
-Se puede acceder a la vista de estadísticas desde la vista de Curso tocando el botón de estadísticas arriba a la derecha. Dentro de esta vista se podra ver el porcentaje de tareas y examenes entregados junto a los puntajes promedios de los examenes, tareas y notas finales y la cantidad total de modulos y tareas.
+Desde la vista del curso seleccionado, se puede acceder a las estadísticas generales del curso, presionando en el botón con ícono de estadísticas en el borde superior derecho. Aquí el profesor puede visualizar el rendimiento de los alumnos con respecto a los exámenes y tareas resueltas, luego las métricas más relevants del curso, como el desempeño promedio de los estudiantes, el promedio de la notas de los graduados finales y la cantidad de contenidos del curso.
 
 ## Ver estadísticas de estudiante
-Se puede acceder a la vista de usuarios desde la vista de Curso tocando el botón de usuarios arriba a la derecha. Dentro de esta vista se podran ver las notas promedios de las tareas y examenes entregados por le alumno, junto a la nota final. También se puede ver el porcentaje de tareas y examenes compoletados por el alumno.
+Se puede acceder a la pantalla de estadísticas de usuarios desde la lista de estudiantes en la vista de detalles del curso, presionando sobre el menú de cada alumno, desplegando la opción de ver estadisticas. Dentro de esta vista, se podran ver las notas promedios de las tareas y examenes entregados por el alumno, junto a la nota final de cuando se le gradúe con nota de cursada. También se puede ver el porcentaje de tareas y examenes completados por el alumno.
+Esta herramienta también está presente al momento de graduar a los alumnos cuando se cuando se finaliza un curso.
 
 ## Ver log de profesores auxiliares
-
-...
+Dentro del curso seleccionado se encuentra un botón con un logo de scroll en el cual puede acceder y ver el registro de eventos, relacionado con las acciones que hicieron todos los profesores auxiliares en el curso. Se archivan todas las acciones sea de edición de módulos,  reordenamiento de ellos, creación, edición y corrección de tareas o exámenes, etc. de manera que el profesor titular pueda tener un seguimiento de las acciones que se realizan en el curso.
 
 ## Terminar curso y graduaciones
 Desde la vista de un curso en el cual el usuario es profesor, se puede tocar el botón de detalles del curso. Ahí se podrá ver un botón de options arriba a la derecha, al tocarlo se tendrá la opción de Completas y borrar el curso.
+Cuando un profesor decide utilizar la opción de completar curso, allí se le especificará que el curso pasará a ser inactivo y deberá graduar a los estudiantes. Cuando un curso está inactivo los estudiantes no pueden realizar ninguna acción sobre tareas o examenes pero aún pueden ver los recursos presentes en el curso y los materiales de estudio. 
+En cambio los profesores pueden seguir corrigiendo tareas y exámenes, o haciendo revisiónes, y decidiendo que hacer antes de terminar la graduación completa de los estudiantes. Luego en este punto el profesor puede optar por volver a activar la clase, por si decide que algún alumno deba completar alguna tarea pendiente y en el caso de elegir la otra opción, que es completar el curso, en este caso se le avisa que esta acción es irreversible ya que el curso se archivará y ni tanto el profesor como el alumno podrá realizar ninguna acción sobre las tareas o exámenes, ni modificaciones sobre el curso una vez se complete el curso. En este último caso, el curso quedará archivado y el profesor si lo decide puede eliminarlo del sistema de lo contrario los alumnos y profesores pueden volver a entrar y ver estadísticas, archivos subidos, o tareas y exámenes que se han tomado.
 
 ## Preguntas y respuestas en foro
 Desde la vista de un curso, el usuario podrá acceder al foro de dicho curso tocando el botón rojo que dice "Course Forum".   
