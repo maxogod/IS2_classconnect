@@ -44,7 +44,7 @@ Al iniciar la apliación, el usuario se encontrará con la pantalla de inicio de
     Se provee la opción de iniciar una sesión usando credenciales de google. Si el mail de dicha cuenta ya está en uso, se ofrece la posibilidad de unir ambas cuentas.
 
 ## Homepage (Mis cursos)
-Homepage es la vista principal de la aplicación.Arriba a la izquierda se puede encontrar un menú tipo Hamburguesa con los siguientes campos: 
+Homepage es la vista principal de la aplicación. Arriba a la izquierda se puede encontrar un menú tipo Hamburguesa con los siguientes campos: 
 - Home (lleva al Homepage)
 - To-Do (lleva a la vista to-do)
 - Search Courses (lleva a Buscar Cursos)
@@ -58,7 +58,6 @@ También podrá ver los detalles de su cuenta y tendrá la opción de editarlos.
 El usuario podrá activar y desactivar las notificaciones Push y de Email.   
 El usuario tendrá la opción de hacer que su cuenta sea privada o pública.   
 El usuario podrá terminar su sesión.
-
 
 ## Navi (AI Chatbot)
 
@@ -116,11 +115,11 @@ En cambio los profesores pueden seguir corrigiendo tareas y exámenes, o haciend
 
 ## Preguntas y respuestas en foro
 Desde la vista de un curso, el usuario podrá acceder al foro de dicho curso tocando el botón rojo que dice "Course Forum".   
-Tendrá la opción de hacer una nueva pregunta tocando el botón de "New Question" que le pedirá que le ponga un titulo y detalles a la pregunta.   
-El usuario también tiene la posibilidad de ver preguntas hechas anteriormente por otros usarios. Puede responder a dichas preguntas, ver otras respuestas y también calificarlas.    
+Tendrá la opción de hacer una nueva pregunta tocando el botón de "New Question" que le pedirá que le ponga un titulo y detalles a la pregunta, y opcionalmente agregar un tag como indicador de tema de la pregunta, y donde también le permita a otros usuarios encontrar preguntas filtradas por tags.   
+El usuario también tiene la posibilidad de ver preguntas hechas anteriormente por otros usarios. Puede responder a dichas preguntas, ver otras respuestas y también calificarlas. El creador de la pregunta puede seleccionar una respuesta como la correcta, y ésta sera fijada primero para que puedan leerla otros usuarios.
 
 
 ## Notificaciones
 
-Se puede acceder a la vista de las notificaciones tocando la campana que está arriba a la derecha en el Homepage. Ahí aparecerán las notificaciones recibidas por el usuario, que puede marcarlas como leídas para limpiar la vista.
+Se puede acceder a la vista del historial de notificaciones, tocando la campana que está en el borde superior derecho de la mayoría de las pantallas. Allí aparecerán las notificaciones recibidas por el usuario, que puede marcarlas como leídas para limpiar la vista.
 
