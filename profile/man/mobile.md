@@ -24,6 +24,7 @@ A continuacion se detalla un manual de uso para la aplicacion mobile para cada p
 - [Crear y corregir tareas](#crear-y-corregir-tareas)
 - [Crear y corregir exámenes](#crear-y-corregir-exámenes)
 - [Ver estadísticas del curso](#ver-estadísticas-del-curso)
+- [Añadir un profesor auxiliar](#añadir-un-profesor-auxiliar)
 - [Ver estadísticas de estudiante](#ver-estadísticas-de-estudiante)
 - [Ver log de profesores auxiliares](#ver-log-de-profesores-auxiliares)
 - [Terminar curso y graduaciones](#terminar-curso-y-graduaciones)
