@@ -136,7 +136,7 @@ Una vez creado el examen, como alumno, se puede acceder a ella a través de la v
 
 <br>  
 <div align="center">
-    <img src="../img/mobile/assignment.jpeg" alt="assignment" width="30%"/>
+    <img src="../img/mobile/assingment.jpeg" alt="assignment" width="30%"/>
 </div>
 <br> 
 
