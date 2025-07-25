@@ -22,8 +22,8 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 
 _Videos:_
 
-- [ClassConnect Architecture video [>]](https://youtu.be/MnToP9unGNQ)
 - [ClassConnect Demo video [>]](https://youtu.be/eZ-74DTI_gA)
+- [ClassConnect Architecture video [>]](https://youtu.be/MnToP9unGNQ)
 
 ## Documentación general
 
