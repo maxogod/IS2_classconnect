@@ -20,6 +20,11 @@ ClassConnect es una plataforma de gestión educativa diseñada para facilitar la
 ![Mobile App](https://img.shields.io/badge/Mobile--App-20232a?logo=react&logoColor=61dafb)
 ![Web App](https://img.shields.io/badge/Web--App-61DAFB?logo=react&logoColor=black)
 
+_Videos:_
+
+- [ClassConnect Architecture video [>]](https://youtu.be/MnToP9unGNQ)
+- [ClassConnect Demo video [>]](https://youtu.be/eZ-74DTI_gA)
+
 ## Documentación general
 
 Documentos orientados a dar una visión global del sistema, su estructura, uso y proceso de desarrollo.
